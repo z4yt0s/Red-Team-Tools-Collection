@@ -1,4 +1,7 @@
 # Red-Team-Tools-Collection
+<p align="center">
+  <img src="https://github.com/z4yt0s/Red-Team-Tools-Collection/blob/main/redteam_tools.png" width="350"/>
+</p>
 
 ## Hash Analysis & Cracking Tools
 - **[hashid](https://github.com/psypanda/hashID):** Tool for identifying hash types, helping recognize the format of an unknown hash for further analysis or cracking.

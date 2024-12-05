@@ -35,4 +35,5 @@
 - **[beef](https://github.com/beefproject/beef) - [JavaScript]:** Browser Exploitation Framework used to exploit web browsers, allowing attackers to gain control over the browser and execute attacks.
 
 
+
 - **[]()**

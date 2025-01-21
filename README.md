@@ -17,6 +17,8 @@ These tools are universal and are not designed specifically for one system or co
 ### Network Protocols Scanners
 - **[netexec](https://github.com/Pennyw0rth/NetExec) - [Python]:** Tool for executing commands remotely on machines over various protocols. Useful for managing and automating tasks across multiple systems in a network.
 - **[smbmap](https://github.com) - [Python]:** Tool for enumerating SMB, it is particularly useful for identifying sensitive data and performing remote command execution in Windows networks.
+- **[kerbrute](https://github.com/ropnop/kerbrute) - [Go]:**
+- **[]()**
 
 ## Exploit Search Engines
 - **[exploitdb](https://exploit-db.com/) - [Web]:** Web-based database collecting and indexing known exploits, helping security professionals search for vulnerabilities and associated exploits.
@@ -39,8 +41,8 @@ These tools are universal and are not designed specifically for one system or co
 # Web
 
 ## Web Discovery
-- **[wafw00f](https://github.com/EnableSecurity/wafw00f) - [Python]:** Allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website.
 - **[whatweb](https://github.com/urbanadventurer/WhatWeb) - [Ruby]:** Identifies technologies used by websites, such as web servers, CMS platforms, and security tools, during reconnaissance. 
+- **[wafw00f](https://github.com/EnableSecurity/wafw00f) - [Python]:** Allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website.
 
 ## Web Fuzzers
 - **[wfuzz](https://github.com/xmendez/wfuzz) - [Python]:** Web application brute-forcing tool to discover hidden resources, parameters, and potential security flaws by fuzzing HTTP requests.
@@ -49,8 +51,12 @@ These tools are universal and are not designed specifically for one system or co
 - **[ffuf](https://github.com/ffuf/ffuf) - [Go]:** Fast web fuzzer designed to brute force HTTP-based resources, often used for discovering directories, files, or parameters in web applications.
 - **[feroxbuster](https://github.com/epi052/feroxbuster) - [Rust]:** A fast, simple, recursive and interactive content discovery tool written in Rust.
 
-
-
 ## Exploitation Frameworks
 - **[metasploit](https://github.com/rapid7/metasploit-framework) - [Ruby]:** Widely used exploitation framework that helps security professionals identify, exploit, and validate vulnerabilities in systems and networks.
 - **[beef](https://github.com/beefproject/beef) - [JavaScript]:** Browser Exploitation Framework used to exploit web browsers, allowing attackers to gain control over the browser and execute attacks.
+
+# Libraries
+- **[impacket](https://github.com/fortra/impacket) - [Python]:**
+- **[pwntools](https://github.com/Gallopsled/pwntools) - [Python]:**
+- **[scapy](https://github.com/secdev/scapy) - [Python]:**
+- **[beautifulsoup](https://pypi.org/project/beautifulsoup4/) - [Python]:**

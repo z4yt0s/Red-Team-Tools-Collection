@@ -3,22 +3,36 @@
   <img src="https://github.com/z4yt0s/Red-Team-Tools-Collection/blob/main/redteam_tools.png" width="350"/>
 </p>
 
-# General Purpose
-These tools are universal and are not designed specifically for one system or concrete scenario, but rather applicable in diverse enviroments.
 
-## Network
+# Network
 
-### Network Scanners
+## Network Scanners
 - **[nmap](https://github.com/nmap/nmap) - [C & Lua]:** A powerful network scanning tool that discovers devices on a network, identifies services, and detects vulnerabilities.
 - **[masscan](https://github.com/robertdavidgraham/masscan) - [C]:** High-speed port scanner capable of scanning large networks with output similar to nmap.
 - **[arp-scan](https://github.com/royhills/arp-scan) - [C & Bash]:** Discovers devices in local IPv4 networks using ARP requests.
 - **[netdiscover](https://salsa.debian.org/debian/netdiscover) - [C]:** ARP-based network discovery tool designed for identifying hosts in wireless or wired networks.
 
-### Network Protocols Scanners
-- **[netexec](https://github.com/Pennyw0rth/NetExec) - [Python]:** Tool for executing commands remotely on machines over various protocols. Useful for managing and automating tasks across multiple systems in a network.
+## Network Protocols Clients
+### SMB
 - **[smbmap](https://github.com) - [Python]:** Tool for enumerating SMB, it is particularly useful for identifying sensitive data and performing remote command execution in Windows networks.
+- **[smbclient]() - [Python]:** Tool for enumerating SMB, it is particularly useful for identifying sensitive data and performing remote command execution in Windows networks.
+- **[smbmap](https://github.com) - [Python]:** Tool for enumerating SMB, it is particularly useful for identifying sensitive data and performing remote command execution in Windows networks.
+### RPC
+- **[rpcclient](https://github.com/samba-team/samba/tree/master/source3/rpcclient) - [C]:**
+- **[rpcenum](https://github.com/s4vitar/rpcenum) - [Bash]:**
+
+### MSSQL
+- **[mssqlclient\(Impacket\)](https://github.com/fortra/impacket/blob/master/examples/mssqlclient.py) - [Python]:**
+
+### Offensives Network Tools
+- **[netexec](https://github.com/Pennyw0rth/NetExec) - [Python]:** Tool for executing commands remotely on machines over various protocols. Useful for managing and automating tasks across multiple systems in a network.
+- **[rubeus](https://github.com/GhostPack/Rubeus) - [C#]:**
+- 
 - **[kerbrute](https://github.com/ropnop/kerbrute) - [Go]:**
-- **[]()**
+- **[responder](https://github.com/lgandx/Responder) - [Python]:** 
+
+
+- **[]() - []:**
 
 ## Exploit Search Engines
 - **[exploitdb](https://exploit-db.com/) - [Web]:** Web-based database collecting and indexing known exploits, helping security professionals search for vulnerabilities and associated exploits.
@@ -27,7 +41,8 @@ These tools are universal and are not designed specifically for one system or co
 - **[getsploit](https://gitlab.com/kalilinux/packages/getsploit) - [Python]:** Python-based tool for fetching exploit information from the Exploit-DB database.
 - **[sploitus](https://sploitus.com/) - [Web]:** Web-based platform for searching and downloading exploits from various databases, including Exploit-DB and others.
 
-## Hash Analysis & Cracking Tools
+# Hash Analysis & Cracking Tools
+- **[name-that-hash](https://github.com/bee-san/Name-That-Hash) - [Python]:** Tool for identifying hash types, helping recognize the format of an unknown hash for further analysis or cracking.
 - **[hashid](https://github.com/psypanda/hashID):** Tool for identifying hash types, helping recognize the format of an unknown hash for further analysis or cracking.
 - **[john](https://github.com/openwall/john):** Popular password cracking tool that cracks password hashes using techniques such as dictionary attacks and brute-forcing.
 - **[hashcat](https://github.com/hashcat/hashcat):** Fast password recovery tool designed to crack hash types using advanced algorithms and optimized techniques.
@@ -36,7 +51,8 @@ These tools are universal and are not designed specifically for one system or co
 
 ### Windows
 - **[evil-winrm](https://github.com/Hackplayers/evil-winrm) - [Ruby]:**
-- **[nishang](https://github.com/samratashok/nishang) - [PowerShell]:** 
+- **[nishang](https://github.com/samratashok/nishang) - [PowerShell]:**
+- **[]() - [Powershell]:**
 
 # Web
 
